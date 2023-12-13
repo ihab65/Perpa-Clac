@@ -4,6 +4,8 @@
     let ds = 0;
     let es = 0;
     let tp = 0;
+
+    $: moy = (ds*0.2+cc*0.1+es*0.5+tp*0.2).toFixed(2)
 </script>
 
 <div class="card">
@@ -18,7 +20,7 @@
     <p class="label">tp</p>
     <input class="intake" type="number" max=20 min=0 bind:value={tp} />
 
-    <p>{(ds*0.2+cc*0.1+es*0.5+tp*0.2).toFixed(2)}</p>
+    <p>{moy}</p>
 </div>
 
 <style>
