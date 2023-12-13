@@ -1,10 +1,38 @@
 <script>
+  import Section from "./section.svelte";
+  import Card from './section.svelte'
 </script>
 
-<main>
-  <p>hello world this is the first time trying to make Perpa Clac a thing</p>
-</main>
 
-<style>
-  
-</style>
+<Card name='MMC'>
+</Card>
+
+<Card name='MDF'>
+</Card>
+
+<Card name='RDM'>
+</Card>
+
+<Card name='RDM'>
+</Card>
+
+<Card name='RDM'>
+</Card>
+
+<Card name='RDM'>
+</Card>
+
+<Card name='RDM'>
+</Card>
+
+<Card name='RDM'>
+</Card>
+
+<Card name='RDM'>
+</Card>
+
+<Card name='RDM'>
+</Card>
+
+<Card name='RDM'>
+</Card>
